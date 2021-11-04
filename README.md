@@ -1,24 +1,43 @@
-# README
+# お宿memo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サイト概要
+泊まってみたいホテルやまた泊まりたい旅館を記録できるサイトです。
 
-Things you may want to cover:
+### サイトテーマ
 
-* Ruby version
+泊まったホテル（旅館）泊まりたいホテル（旅館）の記録サイト
 
-* System dependencies
+### テーマを選んだ理由
 
-* Configuration
+旅行会社に務めていると「前に泊まったホテルよかったけど名前が思い出せない」「テレビで紹介されてた旅館に泊まりたい」みたいなことがよく起こります。過去に利用履歴があれば以前に宿泊したホテルはわかります。特徴があればテレビ番組を見れていなくても割り出すことが可能です。しかし曖昧な記憶から該当施設を当てることが難しいのは確かです。
+観光地が記憶に残りがちですが、ホテルや旅館も旅の一部です。せっかくの「また泊まりたい」や「泊まってみたい」を施設名だけでなく、『誰と』や『どうして』などとあわせて残しておけるサイトがあればよいなと思いテーマにしました。
 
-* Database creation
+### ターゲットユーザ
 
-* Database initialization
+旅行好きの人
 
-* How to run the test suite
+### 主な利用シーン
 
-* Services (job queues, cache servers, search engines, etc.)
+・旅の記録の一つとして
+・今後の旅の目的のために
 
-* Deployment instructions
+## 設計書
 
-* ...
+<...>
+
+## チャレンジ要素一覧
+
+https://docs.google.com/spreadsheets/d/1x_J3XKEAxirgm-SrvudqZfR_KKqpyKcVk2l9V9WkyGE/edit?usp=sharing
+
+## 開発環境
+
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JS ライブラリ：jQuery
+- IDE：Cloud9
+
+## 使用素材
+
+- 外部サービスの画像素材・音声素材を使用した場合は、必ずサービス名と URL を明記してください。
+- 使用しない場合は、使用素材の項目を README から削除してください。
