@@ -1,2 +1,16 @@
-<h1>Users#show</h1>
-<p>Find me in app/views/users/show.html.erb</p>
+<div class="container">
+  <h2>マイページ</h2>
+  <div class="row">
+    <table>
+      <tr>
+        <td><%= link_to"一覧", records_index_path %></td>
+        <td><%= link_to"施設検索", "hotels_index_path" %></td>
+        <td><%= link_to"ユーザーネーム変更", "users_edit_path" %></td>
+        <td><%= link_to"退会する", users_confirm_path %></td>
+      </tr>
+    </table>
+  </div>
+  <div class="row">
+    新規投稿3～5件（予定）
+  </div>
+</div>
