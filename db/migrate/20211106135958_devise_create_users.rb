@@ -10,8 +10,8 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.2]
       # 追加項目
       t.string :name, null: false
       t.boolean :is_active, null: false, default: "true"
-      t.datetime :created_at, null: false, default: "now" # 登録日時
-      t.datetime :updated_at, null: false, default: "now" # 更新日時
+      t.datetime :created_at, default: "now" # 登録日時
+      t.datetime :updated_at, default: "now" # 更新日時
 
       ## Recoverable
       t.string   :reset_password_token

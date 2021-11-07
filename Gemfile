@@ -68,3 +68,6 @@ gem 'font-awesome-sass', '~> 5.13'
 
 # devise
 gem 'devise'
+
+# 環境変数
+gem 'dotenv-rails'

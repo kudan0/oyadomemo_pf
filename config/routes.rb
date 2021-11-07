@@ -1,5 +1,14 @@
 Rails.application.routes.draw do
 
+  get 'hotels/index'
+  get 'hotels/show'
+  get 'records/index'
+  get 'records/new'
+  get 'records/show'
+  get 'records/edit'
+  get 'users/show'
+  get 'users/edit'
+  get 'users/confirm'
   devise_for :users
   root 'homes#top'
   get '/about', to: 'homes#about'
