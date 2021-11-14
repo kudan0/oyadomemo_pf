@@ -71,3 +71,9 @@ gem 'devise'
 
 # 環境変数
 gem 'dotenv-rails'
+
+gem 'ransack'
+
+# 画像投稿
+gem "refile", require: "refile/rails", github: 'manfe/refile'
+gem "refile-mini_magick"

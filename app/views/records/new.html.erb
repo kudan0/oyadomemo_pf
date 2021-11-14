@@ -1,2 +1,19 @@
-<h1>Records#new</h1>
-<p>Find me in app/views/records/new.html.erb</p>
+<div class="container">
+  <h2>メモする</h2>
+  <div class="row">
+    <!--ホテル名-->
+    <!--ホテル画像-->
+    <!--住所-->
+  </div>
+  <div class="row">
+    <%= form_with model:@record, local:true do |f| %>
+      <h4>ラジオボタン</h4>
+      <h4>宿泊年月日</h4>
+      <h4>同行者</h4>
+      <h4>目的</h4>
+      <h4>画像</h4>
+      <h4>備考</h4>
+      <%= f.submit "メモを残す" %>
+    <% end %>
+  </div>
+</div>

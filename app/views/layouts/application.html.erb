@@ -10,6 +10,29 @@
   </head>
 
   <body>
+    <header>
+      <div>
+        <%= link_to root_path do %>
+        <%= image_tag 'logo.png' %>
+        <% end %>
+      </div>
+      <nav>
+        <ul class="nav-list">
+        <% if user_signed_in? %>
+          <li class="nav-list-item"><%= link_to "top", root_path %></li>
+          <li class="nav-list-item"><%= link_to "about", about_path %></li>
+          <li class="nav-list-item"></li>
+          <li class="nav-list-item"></li>
+        <% else %> <!--ログインしてないとき-->
+          <li class="nav-list-item"><%= link_to "top", root_path %></li>
+          <li class="nav-list-item"><%= link_to "about", about_path %></li>
+          <li class="nav-list-item"><%= link_to "新規登録", new_user_registration_path %></li>
+          <li class="nav-list-item"><%= link_to "ログイン", new_user_session_path %></li>
+        <% end %>
+        </ul>
+      </nav>
+    </header>
     <%= yield %>
+    <footer></footer>
   </body>
 </html>
