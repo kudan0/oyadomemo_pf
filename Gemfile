@@ -77,3 +77,6 @@ gem 'ransack'
 # 画像投稿
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
+
+# 楽天api
+gem 'rakuten_web_service'

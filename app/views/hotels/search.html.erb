@@ -1,0 +1,12 @@
+<div class="container">
+  <!--<div class="row">-->
+    <h2>検索</h2>
+    <%= form_with url: hotels_search_path, method: :get, local: true do |f| %>
+      <%= f.text_field :searchword, class: "search_form", placeholder: "kensaku" %>
+　　　<%= f.submit "検索", class:"btn btn-sm btn-success" %>
+    <% end %>
+  <!--</div>-->
+  <div class="row">
+    <%= @hotelName %>
+  </div>
+</div>

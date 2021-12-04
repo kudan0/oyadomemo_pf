@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'hotels/index'
+  get 'hotels/search'
   get 'hotels/show'
   get 'records/index'
   get 'records/new'
